@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
   title: { fontSize: 14, marginVertical: 5 },
   price: { fontWeight: 'bold' },
     searchInput: {
-    height: 90,
+    height: 60,
     backgroundColor: '#f1f1f1', 
     borderRadius: 20,      
     paddingHorizontal: 20,    
