@@ -25,7 +25,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/ecommerce-app-project.git
+   git clone https://github.com/RaghuIV/ecommerce-app-project.git
    cd ecommerce-app-project
    
 2.Install Dependencies: 
