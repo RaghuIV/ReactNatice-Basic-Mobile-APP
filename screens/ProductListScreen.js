@@ -50,11 +50,12 @@ const ProductListScreen = ({ navigation }) => {
         <Button title="Wishlist" onPress={() => navigation.navigate('Wishlist')} />
       </View>
       <TextInput
-        style={styles.searchInput}
-        placeholder="Search Products"
-        value={searchQuery}
-        onChangeText={setSearchQuery}
-      />
+       style={styles.searchInput}
+      placeholder="Search for products..."
+      placeholderTextColor="#888"
+      value={searchQuery}
+     onChangeText={setSearchQuery}
+       />
       <FlatList
         data={filteredProducts}
         renderItem={renderItem}
@@ -72,7 +73,15 @@ const styles = StyleSheet.create({
   image: { width: '100%', height: 100, resizeMode: 'contain' },
   title: { fontSize: 14, marginVertical: 5 },
   price: { fontWeight: 'bold' },
-  searchInput: { height: 40, borderColor: '#ccc', borderWidth: 1, borderRadius: 8, paddingHorizontal: 10, marginBottom: 10 },
+    searchInput: {
+    height: 90,
+    backgroundColor: '#f1f1f1', 
+    borderRadius: 20,      
+    paddingHorizontal: 20,    
+    marginBottom: 10,
+    fontSize: 16,
+    color: '#333',
+  },
 });
 
 export default ProductListScreen;

@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Ecommerce-app",
-    "slug": "Ecommerce-app",
+    "slug": "ecommerce-app-project",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,6 +23,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "54693158-ef30-492e-9d9f-647b3aaf2289"
+      }
+    },
+    "owner": "raghuiv"
   }
 }
